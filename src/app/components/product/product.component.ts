@@ -10,7 +10,8 @@ import { ProductService } from '../../../services/product.service';
 export class ProductComponent {
   product: Product = {  // Inicializa el objeto product
     name: '',
-    price: 0
+    price: 0,
+    quantity:0
   };
 
   constructor(private productService: ProductService) {}
