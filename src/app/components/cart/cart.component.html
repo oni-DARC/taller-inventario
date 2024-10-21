@@ -1,0 +1,13 @@
+<div class="container">
+  <h3>Shopping Cart</h3>
+  <ul class="list-group">
+    <li class="list-group-item" *ngFor="let product of cartService.getCart()">
+      {{ product.name }} - ${{ product.price }} x {{ product.quantity }}
+    </li>
+  </ul>
+  <div class="total">
+    <h4>Total: ${{ cartService.getTotal() }}</h4>
+    <h4>IVA (12%): ${{ cartService.getTotal() * 0.12 }}</h4>
+    <h4>Total with IVA: ${{ cartService.getTotal() * 1.12 }}</h4>
+  </div>
+</div>

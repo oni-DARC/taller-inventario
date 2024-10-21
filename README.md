@@ -1,3 +1,16 @@
+# Materia
+APLICACIONES WEB II
+
+# Docente
+ING NAVARRETE ARROYO PABLO STEVE
+
+# Estudiante
+ROGEL CALLE DIEGO ARAMANDO.
+
+# Taller
+Desarrollar un sistema de inventario con diferentes niveles de seguridad. Para la gestión de una tienda en línea, la aplicación debe permitir al usuario seleccionar diferentes productos y agregarlos a una lista de compras. Al final la aplicación debe permitir generar una factura previa con la suma total de los productos, el IVA, y el valor final de la factura.
+
+
 # TallerInventario
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.9.
